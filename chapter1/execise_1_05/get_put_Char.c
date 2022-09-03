@@ -5,7 +5,9 @@ int main(){
 	c = getchar();
 	printf("%d\n",c);
 	while(c != EOF)	{
+		printf("%d\n", EOF);
 		putchar(c);
 		c = getchar();
 	}
+	return 0;
 }
